@@ -1,0 +1,3 @@
+insert into clientes(id,cedula,apellido_cliente,nombre_cliente,direccion_cliente,telefono_cliente,celular_cliente) values (1,'0210695875','Fernando', 'Salvador','Cuenca','2258286','0998576854');
+insert into vehiculo(id,id_cliente,marca_vehiculo,modelo_vehiculo,color_vehiculo,matricula_vehiculo,kilometraje_vehiculo) values (1,1, 'dahuo','Toyotha','rojo','2258286',1000);
+insert into mantenimientos(id_reparacion,id_vehiculo,descripcion_reparacion,fecha_entrada,fecha_salida,horas_mantenimiento) values (1,1,'Daño del capo', '2020-01-22', '2020-01-23','05:00');
