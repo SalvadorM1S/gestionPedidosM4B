@@ -44,7 +44,7 @@ public class ClientesRestController {
 	public Clientes create(@RequestBody Clientes cliente) {
 		return clienteservice.save(cliente);
 	}
-
+/*
 	// Editar un cliente
 	@PutMapping("/clientes/{id}")
 	@ResponseStatus(HttpStatus.CREATED)
@@ -57,7 +57,7 @@ public class ClientesRestController {
 		clienteActual.setTelefono_cliente(cliente.getTelefono_cliente());
 
 		return clienteservice.save(clienteActual);
-	}
+	}*/
 
 	// eliminar un cliente
 	@DeleteMapping("/clientes/{id}")
